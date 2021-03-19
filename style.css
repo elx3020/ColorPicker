@@ -101,6 +101,14 @@ main {
     align-items:center;
 }
 
+@media(max-width: 480px){
+    .container{
+        width: 20rem;
+        text-align: center;
+    }
+}
+
+
 .btn{
 
     color: white;

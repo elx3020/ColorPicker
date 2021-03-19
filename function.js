@@ -1,5 +1,5 @@
 
-const colors = ['red','green','blue'];
+const colors = ['red','green','blue','yellow','gray','purple','cyan','pink','white'];
 
 const btn = document.getElementById('btn');
 const color = document.querySelector('.color');
@@ -10,6 +10,7 @@ btn.addEventListener('click',(e) =>{
 
     document.body.style.backgroundColor = colors[randomNumber];
     color.textContent = colors[randomNumber];
+    color.style.color = colors[randomNumber];
 })
 
 function getRandomNumber(){
